@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <a href="aboutUs.html">About us Page</a>
+    <a href="images/image.html">Images</a>
+    <p>
+        &Jfr; &afr; &dfr; &yfr; &nfr; &Cfr; &afr; &lfr; &hfr; &ofr; &ufr; &nfr; 
+        &#128516;
+        &#9801;
+        &#127928;
+
+
+        <form action="/data.json" method="POST">
+            <fieldset>
+                <legend>User Questionaire</legend>
+                
+            <ul style="list-style-type: none">
+                <li><label for="DoB">Date of Birth (mm/dd/yyyy)</label>
+                <input type="text" id="DoB" name="user.DoB"></li><br>
+
+                <li><label for="Comms">Comments/Questions:</label></li>
+                <li><textarea id="Comms" name="user.Comms" cols="30" rows="10" accept="image/jpeg"></textarea></li>
+                
+
+                <li><button type="submit">Submit Your Questionaire</button></li>
+                
+                <li><button type="reset" value="reset" disabled>Reset Answers</button></li>
+
+                <li><label for="image"> Please submit a jpg of your face</label></li>
+                <li><input type="file" accept=".jpg" name="user.face" id="image"></li>
+                
+                <li><label for="toppings">Select your pizza toppings</label></li>
+                <li><input type="checkbox" id="toppings" name="user.toppings.pepperoni" >Pepperoni</li>
+                <li><input type="checkbox" id="toppings" name="user.toppings.cheese" >Cheese</li>
+                <li><input type="checkbox" id="toppings" name="user.toppings.garlic" >Garlic</li>
+                <li><input type="checkbox" id="toppings" name="user.toppings.spinach" >Spinach</li>
+                
+                <li><label for="PW">Password</label></li>
+                <li><input type="password" id="PW" name="user.PW"</li>
+                
+                <li><label for="drinks">Drinks:</label></li>
+                <li><input type="radio" id="drinks" name="user.sprite">Sprite</li>
+                <li><input type="radio" id="drinks" name="user.rootbeer">Rootbeer</li>
+                <li><input type="radio" id="drinks" name="user.fanta">Orange Fanta</li>
+
+            </ul>
+        </form>
+    </p>
+</body>
+</html>
