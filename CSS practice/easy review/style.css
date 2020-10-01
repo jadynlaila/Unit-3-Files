@@ -1,0 +1,89 @@
+/* h1{
+    color: blue;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 2px solid;
+}
+
+div{
+    color: gray;
+    font-size: larger;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif
+}
+
+hr{
+    color: blue;
+}
+a{
+    color:orange;
+}
+
+ul{
+    border: solid pink 2px;
+}
+
+div.job-title{
+    font-weight: bolder;
+}
+
+p{
+    width: 50%;
+    float: left;
+}
+
+#Proper-Name{
+    text-decoration: underline dotted black;
+    color: aquamarine;
+}
+
+a[href]{
+    color: purple;
+}
+
+a[href="west-mec.org"]{
+    color:"orange";
+}
+
+header p{
+    color:aquamarine;
+} */
+
+a[href="https://google.com"], a[href="https://google.com"]:visited{
+    color: red;
+}
+
+a[href="https://wikipedia.com"], a[href="https://wikipedia.com"]:visited{
+    color: grey;
+}
+
+a[href="https://w3schools.com"], a[href="https://w3schools.com"]:visited{
+    color: limegreen;
+}
+
+a[href="https://mdn.com"], a[href="https://mdn.com"]:visited {
+    color: lightblue;
+}
+
+a[href="https://github.com"], a[href="https://github.com"]:visited{
+    color: green;
+}
+
+*::first-letter{
+    font-size: 200%;
+    font-family: fantasy;
+}
+
+a:after{
+    content:".com";
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
