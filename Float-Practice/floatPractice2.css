@@ -1,0 +1,23 @@
+
+.float{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    background-color: teal;
+    padding: 1rem;
+    margin: 20px;
+}
+
+.float1{
+    float:left
+}
+
+.float2{
+    float: right;
+}
+
+.box{
+    background-color: thistle;
+    padding: 5px;
+    overflow: auto;
+}

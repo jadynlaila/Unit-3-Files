@@ -1,0 +1,31 @@
+body{
+    width: 500px;
+    margin: 0 auto;
+
+}
+
+p{
+    background-color: burlywood;
+    border: 3px solid black;
+    padding: 10px;
+    margin:10px;
+
+}
+
+span{
+    color: red;
+    border: 1px solid black;
+}
+
+.positioned{
+    background-color: rgb(212, 179, 179);
+    position: sticky;
+    top: 10px;
+    z-index: 0;
+}
+
+p:nth-of-type(1){
+    background-color: yellow;
+    z-index: 3;
+    position: relative;
+}
