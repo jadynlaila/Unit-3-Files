@@ -247,12 +247,54 @@ body{
     margin-top: 1rem;
 }
 
+.soups article p{
+    margin-top: 2rem;
+}
+
 /* Specific Charcuterie Styles */
 .charcuterie{
     grid-area: charcuterie;
     grid-column: 1/5;
     padding: 1rem;
     border-bottom: var(--border);
+}
+
+.charcuterie header{
+    display: flex;
+}
+
+.charcuterie .heading{
+    font-size: 2rem;
+}
+
+.charcuterie header p{
+    margin-left: 1rem;
+}
+
+.charcuterie article{
+    margin-top: 1rem;
+}
+
+.charcuterie article header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.charcuterie article header::after{
+    content: "";
+    border-bottom: 2px dotted var(--color-text);
+    width: 100%;
+    display: inline-block;
+    position: absolute;
+    bottom: 11px;
+    left: 0;
+    height: 2px;
+}
+
+.charcuterie .price{
+    background-color: var(--color-base);
+    z-index: 1;
+    padding: .5rem;
 }
 
 /* Specific Sides Styles */
@@ -263,6 +305,21 @@ body{
     grid-area: sides;
     grid-column: 5/-1;
     padding: 1rem;
+}
+
+.sides .heading{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.sides ul{
+    columns: 2;
+    margin-top: 1rem;
+}
+
+.sides .title::after{
+    content: " - ";
+
 }
 
 
